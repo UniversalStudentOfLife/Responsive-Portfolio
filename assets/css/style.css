@@ -11,6 +11,7 @@ h1 {
 	margin-left: 100px;
 	padding-top: 24px;
 	float: left;
+	position: relative;
 }
 
  /*Adds a header to all of pages files that aquire them*/
@@ -38,6 +39,7 @@ h1 {
 	position: relative;
 	color: green;
 	bottom: 10px;
+	display: inline-block;
 }
 
 a:link {
@@ -71,10 +73,9 @@ a:active {
 	border: thin;
 	border-color: gray;
 	position: relative;
-	left: 7%;
  	top: 100px;
 	height: 50%;
-	max-width: 650px;
+	max-width: 40%;
 	background-color: white;
 	float: left;
 	z-index: -1;
@@ -82,6 +83,8 @@ a:active {
 	padding-left: 20px;
 	padding-right: 20px;
 	margin-bottom: 20px;
+	margin-left: 20px;
+	float: left;
 }
 
 /*Handles formatting for the "Portfolio" page*/
@@ -179,14 +182,15 @@ a:active {
 
 	/*Handles formatting for the, "header of the page*/
 .header {
-	position: absolute;
+	position: relative;
 	top: 0;
 	width: 100%;
 	background-color: white;
 	border-color: #cccccc;
 	border-bottom: 1px solid;
 	height: 60px;
-	left: 0;
+	margin-left: 0;
+	margin-right: 0;
 
 	
 }
@@ -250,10 +254,27 @@ body {
 	border-color: #4aaaa5;
 	color: white;
 
-}*/ 
+}
 
 /*Code for future flex ability*/
 .content {
 
 	
+}
+
+@media only screen and (max-width: 980px) {
+    body {
+        
+			max-width: 780px;
+
+            }
+
+
+	#aboutme1 {
+
+			 max-width: 780px;
+
+			 max-height: 780px;
+	}
+
 }
