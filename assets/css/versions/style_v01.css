@@ -1,0 +1,115 @@
+h1 {
+	
+	color: white;
+	background-color: #4aaaa5;
+	height: 46px;
+	width: 175px;
+	text-align: center;
+	margin-top: -10px;
+	margin-left: 100px;
+	padding-top: 23px;
+	float: left;
+}
+
+h2 {
+
+	color: #4aaaa5;
+	text-align: left;
+}
+
+.class1 {
+	float: right;
+}
+
+.navigation {
+
+	text-align: center;
+	margin: 0;
+	float: right;
+	margin-top: 30px;
+	margin-right: 150px;
+	position: relative;
+
+}
+
+.aboutMe {
+
+	border: thin;
+	border-color: gray;
+	position: relative;
+	left: 20%;
+ 	top: 150px;
+	height: 50%;
+	width: 50%;
+	background-color: white;
+	float: left;
+	z-index: -1;
+	position: 100px 100px;
+	padding-left: 20px;
+	padding-right: 20px;
+
+
+}
+
+.profileimage {
+
+	width: 20%;
+	height: 20%;
+	padding: 0 20px 20px 0;
+	float: left;
+
+
+}
+
+.header {
+	position: absolute;
+	top: 0;
+	width: 100%;
+	background-color: white;
+	border-color: #cccccc;
+	border-bottom: thin;
+	height: 60px;
+	left: 0;
+
+	
+}
+
+.footer {
+	position: absolute;
+	bottom: 0;
+	text-align: center;
+	width: 100%;
+	background-color: #666666;
+	color: white;
+	font-family: 'Helvetica Neue';
+	border-top: 6px solid;
+	border-top-color: #4\aaaa5;
+}
+
+.menubar {
+
+	position: fixed;
+}
+
+.connectme {
+
+	top: 50%;
+	float: right;
+
+}
+
+body {
+
+	background-image: url("../images/concrete_seamless.png");
+}
+
+p {
+
+	position: relative;
+	white-space: normal; 
+}
+
+.link {
+
+
+}

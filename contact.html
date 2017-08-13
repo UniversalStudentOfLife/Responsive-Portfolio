@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Josh S.</title>
+
+	<!--Reference to Javascript-->
+	<script src="https://www.w3schools.com/lib/w3.js"></script>
+
+	<!--Reference to CSS Stylesheet(s)-->
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+</head>
+<body>
+<!-- Potential future Flex reference going here-->
+<div class="content">
+
+	<!--Header (include)-->
+	<div w3-include-html="https://raw.githubusercontent.com/UniversalStudentOfLife/Basic-Portfolio/master/header.html"></div> 
+
+
+	<!--Contact div. Includes all of the contact data-->
+	<div class="contact" style="width:50%">
+
+		<h2 class="mainheader"> Contact </h2>
+
+		<hr>
+				
+		<form>
+
+			<p> Name </p>
+				<input type="text" name="name" value=" John Smith " class="textinput" >
+
+			<p> Email </p>
+				<input type="text" name="email" value=" example@gmail.com " class="textinput">
+
+			<p> Message </p>
+				<textarea  name="messagebox" class="messagebox"></textarea>
+
+				<input type="button" value="Submit" class="submitbutton">
+
+		</form>
+
+
+	</div>
+
+
+	<div w3-include-html="https://raw.githubusercontent.com/UniversalStudentOfLife/Basic-Portfolio/master/sidebar.html"></div> 
+	
+	<script>
+		w3.includeHTML();
+	</script>
+</div>
+</body>
+
+	<div w3-include-html="https://raw.githubusercontent.com/UniversalStudentOfLife/Basic-Portfolio/master/footer.html"></div> 
+
+
+</html>
