@@ -1,71 +1,111 @@
 <!DOCTYPE html>
 <html>
-
 <head>
-	<title>Josh S.</title>
-
-	<!--Reference to Javascript-->
-	<script src="https://www.w3schools.com/lib/w3.js"></script>
-
-	<!--Reference to CSS Stylesheet(s)-->
-	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
-
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-</head>
+	<!--<link rel="stylesheet" type="text/css" href="assets/css/reset.css"> -->
 
+	<!--Reference to Stylesheet for our CSS -->
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+	<!--Reference to Javascript for Includes-->
+	<script src="https://www.w3schools.com/lib/w3.js"></script>
+
+	<title> Josh's Responsive Page</title>
+
+</head>
 <body>
-	<!-- Potential future Flex reference going here-->
+
+<!-- Header-->
 	<header>
 		
-		<!--My Portfolied-->
-		<div w3-include-html="https://raw.githubusercontent.com/UniversalStudentOfLife/Basic-Portfolio/master/header.html"></div> 
+		<div class="container navheader">
+
+			<nav>
+				
+				<p>
+					<h2 class=""> HOME </h2>
+				</p>
+
+				<ul class="nav navbar nav">
+
+					<a href="#"> Link 1</a>
+					<a href="#"> Link 2</a>
+					<a href="#"> Link 3</a>
+
+				</ul>
+
+			</nav>
+		
+
+
+		</div>
 
 	</header>
-		
-<div class="content">
 
-	<!-- About me Section -->
-	<div id="aboutme1" class="aboutMe">
-		
-		<h2 class="mainheader"> About Me </h2>
+<!--End Header-->
 
-		<!-- horizontal line for formatting-->
-		<hr>
-		
-		<!-- Main page content-->
-		<p class="paragraph">
+<!--Begin container-->
 
-			<!--Main Profile Image-->
-			<img class="profileimage" src="assets/images/motorcycle_1.jpg">
+		<div class="container"> 
 
-			<!-- Main paragrapgh-->
-			Here are a few short paragraphs about myself. I used to ride a motorcycle, I thoroughly enjoyed riding. My favorite part about riding was going through the "twisties" and "hitting" turns (leaning into/over) as far I could, to drag my pucks (a device attached to the knee and designed to be dragged against the ground). Night riding was my favorite thing to do. I had equipped my bike with numerous multi-color LEDs, and glowed like a super nova when riding on the empty highways at night.  </p>
+		<!--Begin Content-->
 
-			
+			<div class="content"> 
+
+
+				<div class="aboutme">
+					
+
+					<p>
+						<h2> About Me</h2>
+
+						<hr>
+					</p>
+
+					<p>
+						<img class="aboutmeimage" src="assets/images/motorcycle_1.jpg">
+					
+
+						Here are a few short paragraphs about myself. I used to ride a motorcycle, I thoroughly enjoyed riding. My favorite part about riding was going through the "twisties" and "hitting" turns (leaning into/over) as far I could, to drag my pucks (a device attached to the knee and designed to be dragged against the ground). Night riding was my favorite thing to do. I had equipped my bike with numerous multi-color LED lights (legal in Maryland), and glowed like a super nova when riding on the empty highways at night.
+
+						&nbsp;
+
+						I don't have a particular genre of music I listen to. I listen to almost everything and anything. A few examples are: Classical, Rap, Pop, EDM, Hardstyle, Dubstep, K-pop, Rock, Instrumental, Traditional, etc... Some of my top favorite artists are G-Dragon, Sinatra, HeadHunterz, etc...
+
+					</p>
+
+
+				</div>
+
+<!-- SideBar Code Begins Here -->
+				<div class="sidebar">
+
+					<div class="content">
+						
+
+
+					</div>
+
+
+				</div> <!-- end of Sidebar-->
+			</div> <!-- end of content-->
+		</div><!-- end of container-->
+
+<!-- Footer Code Begins Here -->
+	<footer class="footer">
 	
-		<p class="paragraph"> I don't have a particular genre of music I listen to. I listen to almost everything and anything. A few examples are: Classical, Rap, Pop, EDM, Hardstyle, Dubstep, K-pop, Rock, Instrumental, Traditional, etc... Some of my top favorite artists are G-Dragon, Sinatra, HeadHunterz, etc... </p>
+		<div class="container">
 
-	</div>
+			<div class="content">
 
+				Footer
+				
+			</div>	
 
-	<!-- Connect with Me (include). I am using includes to create a central location to make changes across all pages and to reduce repetative code. -->
-	<div w3-include-html="https://raw.githubusercontent.com/UniversalStudentOfLife/Basic-Portfolio/master/sidebar.html"></div> 
+		</div>
 
-
-	<!--Javascript reference for the Includes-->
-	<script>
-		w3.includeHTML();
-	</script>
-
-	</div>
-
-
-	<!--Footer (include)-->
-<div w3-include-html="https://raw.githubusercontent.com/UniversalStudentOfLife/Basic-Portfolio/master/footer.html"></div> 
+	</footer>
 
 </body>
-
-
-
 </html>
